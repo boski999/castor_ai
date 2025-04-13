@@ -1,0 +1,16 @@
+# Fichier de configuration pour Vercel
+{
+  "name": "livre-personnalise-saas",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "votre-url-supabase",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "votre-cle-anon-supabase",
+    "OPENAI_API_KEY": "votre-cle-api-openai"
+  }
+}
