@@ -1,7 +1,6 @@
-# Fichier de configuration pour Vercel
 {
   "name": "livre-personnalise-saas",
-  "version": 2,
+  "version": "2",
   "builds": [
     {
       "src": "package.json",
@@ -9,8 +8,8 @@
     }
   ],
   "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": "https://uhhxvalkkvogsqnsecit.supabase.co",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVoaHh2YWxra3ZvZ3NxbnNlY2l0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQ1NjM3NTIsImV4cCI6MjA2MDEzOTc1Mn0.iOUdH-b6uAPlM0iN94EHkg_vDCy65-4q9808W0Nd7P4",
-    "OPENAI_API_KEY": "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"
+    "NEXT_PUBLIC_SUPABASE_URL": "https://uhhxvalkvvogsqnsecit.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVoaHh2YWxrdnZvZ3NxbnNlY2l0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTYzMDc3ODIsImV4cCI6MTcyODk2OTc4Mn0",
+    "OPENAI_API_KEY": "sk-proj--d9KvqSniMYD2_vm69iGEpvL1Wb4dKicfXhADjj-vdksNWOpC5_kqiiZNcVvywCZXs2y1vXKLT3B1bkFJJ-deg1qEh4C1SCX"
   }
 }
